@@ -100,7 +100,7 @@ function App() {
 
   const handlePush = () => {
     if (query.length <= 0) {
-      alert("추가하려는 값을 입력해주세요.");
+      return alert("추가하려는 값을 입력해주세요.");
     }
     newArr.push(query);
     setArray(newArr);
